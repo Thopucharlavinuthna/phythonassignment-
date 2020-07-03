@@ -1,0 +1,653 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "fJHHP-p8jOku",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        },
+        "outputId": "fa413fed-7efa-47a0-c938-8be6047c6918"
+      },
+      "source": [
+        "#question:1\n",
+        "year = int(input(\"Enter the year\"))\n",
+        "if year % 12 == 0 :\n",
+        "  printf(\"monkey\")\n",
+        "elif year % 12 == 1 :\n",
+        " print(\"rooster\")\n",
+        "elif year % 12 == 2 :\n",
+        " print(\"dog\")\n",
+        "elif year % 12 == 3 :\n",
+        " print(\"pig\")\n",
+        "elif year % 12 == 4 :\n",
+        " print(\"rat\")\n",
+        "elif year % 12 == 5 :\n",
+        " print(\"ox\")\n",
+        "elif year % 12 == 6 :\n",
+        " print(\"tiger\")\n",
+        "elif year % 12 == 7 :\n",
+        " print(\"rabbit\")\n",
+        "elif year % 12 == 8 :\n",
+        " printf(\"dragon\")\n",
+        "elif year % 12 == 9 :\n",
+        " print(\"snake\")\n",
+        "elif year % 12 == 10 :\n",
+        " print(\"horse\")\n",
+        "else :\n",
+        "  print(\"sheep\")\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the year9\n",
+            "snake\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "VdZEzG7voziD",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "fcuzmXVRn8ol",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        },
+        "outputId": "55057733-33ba-4236-faeb-25da77d2ff19"
+      },
+      "source": [
+        "#question:5\n",
+        "month = input(\"enter the month\").upper()\n",
+        "if month == \"DECEMBER\" or month == \"JANUARY\" or month == \"FEBRUARY\" :\n",
+        "    print(\"Winter\")\n",
+        "elif month == \"MARCH\" or month == \"APRIL\" or month == \"MAY\" :\n",
+        "    print(\"Spring\")\n",
+        "elif month == \"JUNE\" or month == \"JULY\" or month == \"AUGUST\" :\n",
+        "    print(\"Summer\")\n",
+        "elif month == \"SEPTEMBER\" or month == \"OCTOBER\" or month == \"NOVEMBER\" :\n",
+        "    print(\"Autumn\")\n",
+        "else :\n",
+        "    print(\"not a month\")   "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter the monthjune\n",
+            "Summer\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "hgOyk0Euo4jW",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 70
+        },
+        "outputId": "2a04ced1-e03e-4e4c-9016-c5637ff1d227"
+      },
+      "source": [
+        "#question:2\n",
+        "dist=int(input(\"Distance to be travelled:\"))\n",
+        "weight=int(input(\"weight of the goods:\"))\n",
+        "if dist >= 500 :\n",
+        "  if weight >= 100 :\n",
+        "    print(\"Amount to be charged:\",5*dist)\n",
+        "  elif weight < 10:\n",
+        "      print(\"Amount to be charged:\",7*dist)\n",
+        "  else :\n",
+        "        print(\"Amount to be charged:\",6*dist)\n",
+        "else :\n",
+        "      if weight <= 100 :\n",
+        "        print(\"Amount to be charged:\",8*dist)\n",
+        "      else :\n",
+        "        print(\"Amount to be charged:\",5*dist)\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Distance to be travelled:520\n",
+            "weight of the goods:50\n",
+            "Amount to be charged: 3120\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "t8lIzhM_tB30",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 88
+        },
+        "outputId": "acc3d845-fcda-4e02-a08b-1c5ef9bd6a70"
+      },
+      "source": [
+        "#question:4\n",
+        "m=float(input(\"enter the amount of water in kilograms:\"))\n",
+        "intialtemperature=float(input(\"enter the intialtemperature of wter in degree celcius:\"))\n",
+        "finaltemperature=float(input(\"enter the finaltemprature of water in degree celcius:\"))\n",
+        "Q=m*(finaltemperature-intialtemperature)*4184\n",
+        "print(f'energy  required to heat the water ={Q}joules')"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter the amount of water in kilograms:34\n",
+            "enter the intialtemperature of wter in degree celcius:36\n",
+            "enter the finaltemprature of water in degree celcius:66\n",
+            "energy  required to heat the water =4267680.0joules\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "v7U1jDXNvIv9",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 70
+        },
+        "outputId": "453c6711-0e42-4a29-b459-501376bfd7c3"
+      },
+      "source": [
+        "#quest\"ion:6\n",
+        "weight = float(input(\"enter the weight in pounds:\"))\n",
+        "height = float(input(\"enter the height in inches:\"))\n",
+        "bmi = (weight*0.45359237)/(height*height*0.0254*0.0254)\n",
+        "if bmi < 18.5 :\n",
+        "  print(\"underweight\")\n",
+        "elif 18.5 < bmi < 25.0 :\n",
+        "    print(\"normal\")\n",
+        "elif 25.0 < bmi < 30.0 :\n",
+        "    print(\"overweight\")\n",
+        "elif 30.0 < bmi :\n",
+        "    print(\"obese\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter the weight in pounds:23\n",
+            "enter the height in inches:14\n",
+            "obese\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "IbeIZPzlyBv8",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        },
+        "outputId": "2714412b-2642-40bf-b11b-ade9bd535844"
+      },
+      "source": [
+        "#question:7\n",
+        "number = input(\"enter an integer between 100 to 1000\")\n",
+        "sum=0\n",
+        "for i in number :\n",
+        "  sum = sum+int(i)\n",
+        "print(sum)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter an integer between 100 to 1000745\n",
+            "16\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "h4GEM0Cdyja3",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 1000
+        },
+        "outputId": "4ae1f49d-623a-48d9-9518-30d78218bbd3"
+      },
+      "source": [
+        "#question:8\n",
+        "for i in range (1,1000) :\n",
+        " sum = 0\n",
+        " y=i\n",
+        " while i>0 :\n",
+        "  x=i%10\n",
+        "  i=int(i/10)\n",
+        "  sum=sum*10+x\n",
+        " if y == sum :\n",
+        "  print(y)\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "11\n",
+            "22\n",
+            "33\n",
+            "44\n",
+            "55\n",
+            "66\n",
+            "77\n",
+            "88\n",
+            "99\n",
+            "101\n",
+            "111\n",
+            "121\n",
+            "131\n",
+            "141\n",
+            "151\n",
+            "161\n",
+            "171\n",
+            "181\n",
+            "191\n",
+            "202\n",
+            "212\n",
+            "222\n",
+            "232\n",
+            "242\n",
+            "252\n",
+            "262\n",
+            "272\n",
+            "282\n",
+            "292\n",
+            "303\n",
+            "313\n",
+            "323\n",
+            "333\n",
+            "343\n",
+            "353\n",
+            "363\n",
+            "373\n",
+            "383\n",
+            "393\n",
+            "404\n",
+            "414\n",
+            "424\n",
+            "434\n",
+            "444\n",
+            "454\n",
+            "464\n",
+            "474\n",
+            "484\n",
+            "494\n",
+            "505\n",
+            "515\n",
+            "525\n",
+            "535\n",
+            "545\n",
+            "555\n",
+            "565\n",
+            "575\n",
+            "585\n",
+            "595\n",
+            "606\n",
+            "616\n",
+            "626\n",
+            "636\n",
+            "646\n",
+            "656\n",
+            "666\n",
+            "676\n",
+            "686\n",
+            "696\n",
+            "707\n",
+            "717\n",
+            "727\n",
+            "737\n",
+            "747\n",
+            "757\n",
+            "767\n",
+            "777\n",
+            "787\n",
+            "797\n",
+            "808\n",
+            "818\n",
+            "828\n",
+            "838\n",
+            "848\n",
+            "858\n",
+            "868\n",
+            "878\n",
+            "888\n",
+            "898\n",
+            "909\n",
+            "919\n",
+            "929\n",
+            "939\n",
+            "949\n",
+            "959\n",
+            "969\n",
+            "979\n",
+            "989\n",
+            "999\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "4rfAamxHxg8-",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 1000
+        },
+        "outputId": "59801119-44ce-4c61-d4af-cf59c75c26a2"
+      },
+      "source": [
+        "#question:10\n",
+        "for i in range(1,100) :\n",
+        " if i % 3== 0 and i % 5==0 :\n",
+        "   print(\"fizzbuzz\")\n",
+        " elif i % 3== 0 :\n",
+        "   print(\"fizz\")\n",
+        " elif i % 5 == 0 :\n",
+        "   print(\"buzz\")\n",
+        " else :\n",
+        "   print(i)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "1\n",
+            "2\n",
+            "fizz\n",
+            "4\n",
+            "buzz\n",
+            "fizz\n",
+            "7\n",
+            "8\n",
+            "fizz\n",
+            "buzz\n",
+            "11\n",
+            "fizz\n",
+            "13\n",
+            "14\n",
+            "fizzbuzz\n",
+            "16\n",
+            "17\n",
+            "fizz\n",
+            "19\n",
+            "buzz\n",
+            "fizz\n",
+            "22\n",
+            "23\n",
+            "fizz\n",
+            "buzz\n",
+            "26\n",
+            "fizz\n",
+            "28\n",
+            "29\n",
+            "fizzbuzz\n",
+            "31\n",
+            "32\n",
+            "fizz\n",
+            "34\n",
+            "buzz\n",
+            "fizz\n",
+            "37\n",
+            "38\n",
+            "fizz\n",
+            "buzz\n",
+            "41\n",
+            "fizz\n",
+            "43\n",
+            "44\n",
+            "fizzbuzz\n",
+            "46\n",
+            "47\n",
+            "fizz\n",
+            "49\n",
+            "buzz\n",
+            "fizz\n",
+            "52\n",
+            "53\n",
+            "fizz\n",
+            "buzz\n",
+            "56\n",
+            "fizz\n",
+            "58\n",
+            "59\n",
+            "fizzbuzz\n",
+            "61\n",
+            "62\n",
+            "fizz\n",
+            "64\n",
+            "buzz\n",
+            "fizz\n",
+            "67\n",
+            "68\n",
+            "fizz\n",
+            "buzz\n",
+            "71\n",
+            "fizz\n",
+            "73\n",
+            "74\n",
+            "fizzbuzz\n",
+            "76\n",
+            "77\n",
+            "fizz\n",
+            "79\n",
+            "buzz\n",
+            "fizz\n",
+            "82\n",
+            "83\n",
+            "fizz\n",
+            "buzz\n",
+            "86\n",
+            "fizz\n",
+            "88\n",
+            "89\n",
+            "fizzbuzz\n",
+            "91\n",
+            "92\n",
+            "fizz\n",
+            "94\n",
+            "buzz\n",
+            "fizz\n",
+            "97\n",
+            "98\n",
+            "fizz\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "O8lbakZuEg4q",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 167
+        },
+        "outputId": "c1adee5d-7faf-46d3-ab06-1138466ce349"
+      },
+      "source": [
+        "#question:3\n",
+        "print(\"types of seats:\\nstalls\\ncircle\\nupper class\\nbox\")\n",
+        "seat=input(\"enter the type of seat\")\n",
+        "if seat==\"stalls\":\n",
+        "  x=625\n",
+        "elif seat==\"circle\":\n",
+        "  x=750\n",
+        "elif seat==\"upper class\":\n",
+        "  x=850\n",
+        "elif seat==\"box\":\n",
+        "  x=1000\n",
+        "print(\"payment option cash,credit\")\n",
+        "p=input(\"enter payment mode\")\n",
+        "if p==\"cash\":\n",
+        "  amount=x-x*0.1\n",
+        "  print(amount)\n",
+        "elif p==\"credit\":\n",
+        "  amount=x-x*0.02\n",
+        "  print(amount)\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "types of seats:\n",
+            "stalls\n",
+            "circle\n",
+            "upper class\n",
+            "box\n",
+            "enter the type of seatbox\n",
+            "payment option cash,credit\n",
+            "enter payment modecash\n",
+            "900.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "c-OvpyPoNmDf",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 33
+        },
+        "outputId": "319a2573-780d-4b71-8a1a-c6f19133453e"
+      },
+      "source": [
+        "#question:9\n",
+        "for i in range(1,1000) :\n",
+        "  sum=0\n",
+        "  a=i\n",
+        "  while i>0 :\n",
+        "    n=i%10\n",
+        "    sum=sum+n**3\n",
+        "    i=i//10\n",
+        "  if a==sum :\n",
+        "      print(a,end=\" \")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "1 153 370 371 407 "
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "p9Zijk3jPHIm",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 84
+        },
+        "outputId": "1c4146ed-b90f-4417-fd7c-e4681ff3ad4a"
+      },
+      "source": [
+        "#question:11\n",
+        "H=int(input(\"enter height of well\"))\n",
+        "V=int(input(\"enter distance it climbs for each step\"))\n",
+        "d=int(input(\"enter the distance it slips\"))\n",
+        "e=1+((H-V)+(V-d))//(V-d)\n",
+        "print(e)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter height of well200\n",
+            "enter distance it climbs for each step50\n",
+            "enter the distance it slips1\n",
+            "5\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
